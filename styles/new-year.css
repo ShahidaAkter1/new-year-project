@@ -1,40 +1,53 @@
 /* header section */
 
-.banner{
-    margin: 0 200px;
-    display: flex;
-    align-items: center;
+:root{   --primary:hsla(348, 97%, 63%,0.65);
+    --secondary: hsla(230, 96%, 62%,.65);
+}
+
+
+.container1{
     background-image: url('../images/banner/banner1.png');
-    
-
-}
-/* .banner-sub-title{
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 20px;
-} */
-.banner-title{
-    font-weight: 700;
-    font-size: 65px;
-}
-.banner-description{
-    font-weight: 400;
-    font-size: 14px;
-    color: #757575;
-    margin-bottom: 30px;
+    height: 90vh;
+    background-size: cover; 
+    width: 100%;
 }
 
-.button-primary{
-    
-    color:red;
-    font-weight: 200;
+.container1 .content{
+    margin-left: 60%;
+   
+}
+
+.container1 .content h1{
+    font-size: 60px;
+    max-width: 50%;
+    text-align: right;
+     
+     
+}
+
+.container1 .content p{
     font-size: 20px;
-    border:0;
-    padding: 100px 100px;
-    border-radius: 3px;
-    background:white;
-
+    max-width: 50%;
+    text-align: right;
 }
+.download{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+     margin-left: 40%;
+     
+}
+
+.container1{
+     padding: 50px 0;
+     padding-top: 400px;
+      
+     
+}
+   
 /* failure year */
 .failure-img img{
 
@@ -174,3 +187,44 @@ input{
     font-size: 16px;
 }
 
+
+
+/*  */
+/*  */
+/* gradient part */
+.gradient{
+    background-image: url('../images/watch.png');
+     height: 500px;
+    background-size: cover; 
+    margin: 400px;
+    margin-top: -50px;
+    background: linear-gradient(135deg,var(--primary), var(--secondary)),url("../images/watch.png") no-repeat center center / cover;
+
+    padding: 80px;
+
+    
+
+}
+
+
+
+.call{
+    padding: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+    font-size: 30px;
+    background-color: white;
+color: orange;
+font-weight: 600;
+
+
+}
+
+.gradient h1{
+    font-size: 50px;
+    max-width: 30%;
+    
+}
+
+ 
