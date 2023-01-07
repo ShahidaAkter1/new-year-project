@@ -1,0 +1,176 @@
+/* header section */
+
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/banner/banner1.png');
+    
+
+}
+/* .banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+} */
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.button-primary{
+    
+    color:red;
+    font-weight: 200;
+    font-size: 20px;
+    border:0;
+    padding: 100px 100px;
+    border-radius: 3px;
+    background:white;
+
+}
+/* failure year */
+.failure-img img{
+
+    height: 400px;
+     width:100%;
+     margin-left: 100px;
+  }
+ 
+  .failure-img img:hover{
+     border: 3px solid blue;
+  }
+
+.failure{
+    display: flex;
+    text-align: center;
+    margin: 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.failure-year{
+    text-align: left;
+    max-width: 40%;
+    margin-right: 100px;
+}
+.failure-year:hover{
+    border:5px solid blue;
+}
+.failure-title{
+   font-size: 700;
+   font-weight: 35px;
+   margin-bottom: 10px; 
+
+}
+.failure-description{
+    font-size: 700;
+    font-weight: 35px; 
+    margin-bottom: 20px;
+   
+ }
+ ul li{
+list-style: none;
+ }
+ 
+
+/* My plan */
+.container{
+   margin: 0 auto;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+   
+}
+
+.my-plan{
+   display: flex;
+   align-items: center;
+   
+  
+    
+    gap: 100px;
+ 
+    padding: 50px;
+    text-align: center;
+    
+}
+.my-plan-section{
+    margin: 0px 600px 100px 600px;
+}
+.my-plan-section:hover{
+   border:3px solid blue;
+ 
+   
+ 
+}
+
+/* contact section */
+.footer:hover{
+    border: 2px solid blue;
+}
+    .contact{
+        display: flex;
+        gap:100px;
+        background: black;
+        padding: 130px 200px;
+        color: white;
+    }
+.contact .section-title{
+text-align: left;
+
+}
+
+.subscribe input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 60%;
+    padding: 18px 30px;
+}
+input{
+    height: 10px;
+    background-color: black;
+    
+    border: 1px solid white;
+}
+.contact{
+    text-decoration: none;
+}
+.btn{
+    
+        color:rgb(240, 8, 8);
+        font-weight: 600;
+        font-size: 16px;
+     
+        padding: 0px 0px;
+        
+        background:white;
+         max-width: 80px;
+         border-radius: 10px;
+    
+}
+.subscribe:hover{
+    border: 3px solid blue;
+}
+.future{
+    margin-right: 200px;
+}
+.future:hover{
+    border: 3px solid blue;
+}
+
+#in{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
